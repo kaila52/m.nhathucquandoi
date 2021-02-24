@@ -6,9 +6,13 @@
   Version: 1.0
 
 -----------------------------------------------------------------------------------*/
+
+
 /* Large screen desktop */
 
-@media (min-width: 1366px) and (max-width: 1500px) {} @media (min-width: 1170px) and (max-width: 1500px) {
+@media (min-width: 1366px) and (max-width: 1500px) {}
+
+@media (min-width: 1170px) and (max-width: 1500px) {
     .footer--4 .ft__widget.contact__us {
         left: 59px;
     }
@@ -18,7 +22,7 @@
     .htc__choose__wrap {
         padding: 88px 49px;
     }
-    .choose__container .single__chooose + .single__chooose {
+    .choose__container .single__chooose+.single__chooose {
         margin-left: 58px;
     }
     .video__wrap {
@@ -36,7 +40,7 @@
     .sidebar--logo {
         padding-bottom: 50px;
     }
-    .wrapper__sidebar .main__menu > li > a {
+    .wrapper__sidebar .main__menu>li>a {
         line-height: 40px;
     }
     .wrapper__sidebar .newsletter__form {
@@ -61,6 +65,8 @@
         margin-bottom: 5px;
     }
 }
+
+
 /* Normal desktop :992px. */
 
 @media (min-width: 992px) and (max-width: 1169px) {
@@ -106,7 +112,7 @@
     .htc__choose__wrap {
         padding: 78px 30px;
     }
-    .choose__container .single__chooose + .single__chooose {
+    .choose__container .single__chooose+.single__chooose {
         margin-left: 30px;
     }
     .recent-post-dtl h6 {
@@ -115,7 +121,7 @@
     .contact__address__inner {
         display: block;
     }
-    .contact__address__inner .single__contact__address + .single__contact__address {
+    .contact__address__inner .single__contact__address+.single__contact__address {
         margin-top: 30px;
     }
     .contact-box.name {
@@ -126,7 +132,7 @@
         margin: 0;
         width: 100%;
     }
-    .contact-box.name input + input {
+    .contact-box.name input+input {
         margin-top: 30px;
     }
     .contact-box.name {
@@ -169,7 +175,7 @@
     .wrapper__sidebar .sidebar--nav {
         margin-bottom: 14px;
     }
-    .wrapper__sidebar .main__menu > li > a {
+    .wrapper__sidebar .main__menu>li>a {
         line-height: 36px;
     }
     .sidebar--content {
@@ -183,7 +189,6 @@
         margin-top: 10px;
     }
     /* Slider One */
-    
     .slider--one .slider__bg--1 {
         background-position: 30% 0;
     }
@@ -233,10 +238,10 @@
     .category-menu-list ul li a {
         padding: 10px;
     }
-    .category-heading > h3::before {
+    .category-heading>h3::before {
         left: 12px;
     }
-    .category-heading > h3 {
+    .category-heading>h3 {
         font-size: 14px;
         padding: 15px 10px 15px 35px;
     }
@@ -261,7 +266,7 @@
     .single-checkout-box input[type="password"] {
         width: 100%;
     }
-    .single-checkout-box input + input {
+    .single-checkout-box input+input {
         margin-left: 0;
     }
     .single-checkout-box select {
@@ -293,23 +298,23 @@
         left: 20px;
     }
     .hm11-res .slider-text-right.slider-height-inherit .slider__inner {
-      padding: 128px 40px 128px 0;
+        padding: 128px 40px 128px 0;
     }
     .hm11-res .slider-text-left.slider-height-inherit .slider__inner {
-      padding: 128px 0 128px 40px;
+        padding: 128px 0 128px 40px;
     }
     .testimonial-2-content::before {
-      left: 45%;
+        left: 45%;
     }
-    
 }
+
+
 /* Tablet desktop :768px. */
 
 @media (min-width: 768px) and (max-width: 991px) {
     /*------------------
  Padding Top
 -----------------*/
-    
     .spt-20 {
         padding-top: 20px;
     }
@@ -354,7 +359,7 @@
         justify-content: flex-start;
         margin-left: -15px;
     }
-    .header--3 .main__menu > li > a {
+    .header--3 .main__menu>li>a {
         line-height: 70px;
     }
     .header--3 .menu-extra {
@@ -420,7 +425,6 @@
         margin-left: 28px;
     }
     /* Slider One */
-    
     .slider--one .slider__bg--1 {
         background-color: #efefef;
         background-image: none;
@@ -521,7 +525,7 @@
     .color__list {
         margin-left: 11px;
     }
-    .color__list li + li {
+    .color__list li+li {
         margin-left: 7px;
     }
     .addtocart-btn {
@@ -551,10 +555,10 @@
     .product-categories-all {
         margin-bottom: 50px;
     }
-    .deal-area > h2 {
+    .deal-area>h2 {
         font-size: 30px;
     }
-    .deal-area > p {
+    .deal-area>p {
         font-size: 18px;
     }
     .timer span {
@@ -575,10 +579,10 @@
         font-size: 14px;
         padding: 10px;
     }
-    .category-heading > h3::before {
+    .category-heading>h3::before {
         left: 12px;
     }
-    .category-heading > h3 {
+    .category-heading>h3 {
         font-size: 14px;
         padding: 15px 10px 15px 35px;
     }
@@ -633,10 +637,11 @@
         top: -10px;
     }
     .mobile-menu-area .mean-nav ul {
-        height: 264px;
         overflow-y: auto;
     }
 }
+
+
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
@@ -646,7 +651,6 @@
     /*------------------
  Padding Top
 -----------------*/
-    
     .xpt-20 {
         padding-top: 20px;
     }
@@ -838,7 +842,7 @@
     .choose__container {
         display: block;
     }
-    .choose__container .single__chooose + .single__chooose {
+    .choose__container .single__chooose+.single__chooose {
         margin-left: 0;
         margin-top: 30px;
     }
@@ -864,7 +868,7 @@
         display: block;
         text-align: center;
     }
-    .brand__list li + li {
+    .brand__list li+li {
         padding-top: 30px;
     }
     .copyright__inner {
@@ -901,7 +905,7 @@
     .single-checkout-box input[type="password"] {
         width: 100%;
     }
-    .single-checkout-box input + input {
+    .single-checkout-box input+input {
         margin-left: 0;
     }
     .single-checkout-box select {
@@ -912,7 +916,7 @@
     .contact__address__inner {
         display: block;
     }
-    .contact__address__inner .single__contact__address + .single__contact__address {
+    .contact__address__inner .single__contact__address+.single__contact__address {
         margin-top: 30px;
     }
     .contact-box.name {
@@ -923,7 +927,7 @@
         margin: 0;
         width: 100%;
     }
-    .contact-box.name input + input {
+    .contact-box.name input+input {
         margin-top: 30px;
     }
     .contact-box.name {
@@ -933,7 +937,7 @@
     .pro__dtl__rating {
         display: block;
     }
-    .pro__dtl__btn li + li {
+    .pro__dtl__btn li+li {
         margin-left: 6px;
     }
     .product__deatils__tab {
@@ -989,7 +993,7 @@
     .review-box.name input {
         margin: 0;
     }
-    .review-box.name input + input {
+    .review-box.name input+input {
         margin-top: 30px;
     }
     .producy__view__container {
@@ -1170,7 +1174,6 @@
         padding: 10px 20px;
     }
     /* Home 7 */
-    
     .wrapper__sidebar .menu-extra {
         justify-content: flex-end;
         margin-right: 0;
@@ -1199,7 +1202,7 @@
         padding-left: 0;
         width: 100%;
     }
-    .color__list li + li {
+    .color__list li+li {
         margin-left: 8px;
     }
     .color__list {
@@ -1242,10 +1245,10 @@
     .product-categories-all {
         margin-bottom: 50px;
     }
-    .deal-area > h2 {
+    .deal-area>h2 {
         font-size: 30px;
     }
-    .deal-area > p {
+    .deal-area>p {
         font-size: 18px;
     }
     .timer span {
@@ -1259,7 +1262,7 @@
     .banner-img {
         margin-top: 30px;
     }
-    .tab-menu-text > h4 {
+    .tab-menu-text>h4 {
         padding: 5px 30px 5px 0;
     }
     .slider-height-inherit .slider__inner {
@@ -1311,7 +1314,7 @@
     .breadcrumb-item {
         font-size: 14px;
     }
-    .portfolio-tab-active .tab-menu-text > h4 {
+    .portfolio-tab-active .tab-menu-text>h4 {
         margin-bottom: 10px;
         padding: 0 7px;
     }
@@ -1349,7 +1352,6 @@
         padding-bottom: 50px;
     }
     .mobile-menu-area .mean-nav ul {
-        height: 264px;
         overflow-y: auto;
     }
     .htc__shop__cat.htc__shop__cat-none {
@@ -1390,19 +1392,20 @@
         padding: 0 0 20px 20px;
     }
     .testimonial-2-content {
-      padding: 35px 10px;
+        padding: 35px 10px;
     }
     .ptb--150 {
-      padding: 80px 0;
+        padding: 80px 0;
     }
     .pb--80 {
-      padding-bottom: 20px;
+        padding-bottom: 20px;
     }
     .testimonial-3-name h3 {
-      font-size: 20px;
+        font-size: 20px;
     }
-    
 }
+
+
 /* Large Mobile :480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
