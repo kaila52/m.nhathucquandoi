@@ -37,6 +37,7 @@ function cart() {
                 <td class="product-remove remove-page-cart"><a href="#">X</a></td>
             </tr>`);
         $(".cart_totals").find(".amount").html(`${TongTien.toLocaleString('de-DE')} đ`);
+        $(".w-100").find(".amount").html(`${TongTien.toLocaleString('de-DE')} đ`);
 
     })
 }

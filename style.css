@@ -5121,3 +5121,11 @@ a.shipping-calculator-button:hover {
     margin-right: 2px;
     color: #f8cd35;
 }
+
+.w-100 {
+    width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
