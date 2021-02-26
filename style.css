@@ -747,7 +747,7 @@
 }
 
 .login__register__menu li a {
-    color: #000000;
+    color: white;
     font-size: 36px;
     transition: all 0.4s ease 0s;
 }
@@ -757,7 +757,7 @@
 }
 
 .login__register__menu li.active a {
-    color: #ff4136;
+    color: white;
 }
 
 .login__register__menu li a:hover {
