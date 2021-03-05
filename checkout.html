@@ -506,13 +506,12 @@
                     body: JSON.stringify(dataform) // body data type must match "Content-Type" header
                 }).then(response => response.json())
                 .then(data => {
-                    console.log(data)
-                        // if (data.message == "Success") {
-                        //     localStorage.setItem("cart", "%5B%5D");
-                        //     window.top.location.href = `cam-on.html?name=${$("input[name='name']").val()}&phone=${$("input[name='phone']").val()}`
-                        // } else {
-                        //     alert("Vui Lòng Kiểm Tra Lại")
-                        // }
+                    if (data.message == "Success") {
+                        localStorage.setItem("cart", "%5B%5D");
+                        window.top.location.href = `cam-on.html?name=${$("input[name='name']").val()}&phone=${$("input[name='phone']").val()}`
+                    } else {
+                        alert("Vui Lòng Kiểm Tra Lại")
+                    }
 
                 });
         });
